@@ -1,0 +1,3 @@
+---
+ruby_install_infra_testing_tools: yes
+roles_common_domain_name: futureys.net

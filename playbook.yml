@@ -1,0 +1,11 @@
+---
+- hosts: default
+  become: yes
+  roles:
+    - role: ansible-role-docker-amazon-linux
+    - role: ansible-role-packer-amazon-linux
+    - role: ansible-role-ruby-amazon-linux
+    - role: ansible-role-host-name-and-ssl-amazon-linux
+    - role: ansible-role-cleaning-amazon-linux
+      tags:
+        - cleaning
