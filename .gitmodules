@@ -16,3 +16,6 @@
 [submodule "roles/ansible-role-packer-amazon-linux"]
 	path = roles/ansible-role-packer-amazon-linux
 	url = git@github.com:yukihiko-shinoda/ansible-role-packer-amazon-linux.git
+[submodule "roles/ansible-role-heroku-cli-amazon-linux"]
+	path = roles/ansible-role-heroku-cli-amazon-linux
+	url = git@github.com:yukihiko-shinoda/ansible-role-heroku-cli-amazon-linux.git
