@@ -43,7 +43,7 @@
         "type": "vagrant-cloud",
         "box_tag": "futureys/docker-host",
         "access_token": "{{user `cloud_token`}}",
-        "version": "201812.17.0"
+        "version": "201812.20.0"
       }
     ]
   ]
