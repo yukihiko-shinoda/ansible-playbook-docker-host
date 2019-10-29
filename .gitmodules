@@ -7,15 +7,12 @@
 [submodule "roles/ansible-role-cleaning-amazon-linux"]
 	path = roles/ansible-role-cleaning-amazon-linux
 	url = git@github.com:yukihiko-shinoda/ansible-role-cleaning-amazon-linux.git
-[submodule "roles/ansible-role-host-name-and-ssl-amazon-linux"]
-	path = roles/ansible-role-host-name-and-ssl-amazon-linux
-	url = git@github.com:yukihiko-shinoda/ansible-role-host-name-and-ssl-amazon-linux.git
-[submodule "roles/ansible-role-ruby-amazon-linux"]
-	path = roles/ansible-role-ruby-amazon-linux
-	url = git@github.com:yukihiko-shinoda/ansible-role-ruby-amazon-linux.git
 [submodule "roles/ansible-role-packer-amazon-linux"]
 	path = roles/ansible-role-packer-amazon-linux
 	url = git@github.com:yukihiko-shinoda/ansible-role-packer-amazon-linux.git
 [submodule "roles/ansible-role-heroku-cli-amazon-linux"]
 	path = roles/ansible-role-heroku-cli-amazon-linux
 	url = git@github.com:yukihiko-shinoda/ansible-role-heroku-cli-amazon-linux.git
+[submodule "roles/ansible-role-ssl-certificate-amazon-linux"]
+	path = roles/ansible-role-ssl-certificate-amazon-linux
+	url = git@github.com:yukihiko-shinoda/ansible-role-ssl-certificate-amazon-linux.git

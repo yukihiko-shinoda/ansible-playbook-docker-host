@@ -3,7 +3,7 @@
 
 Dotenv.load
 Vagrant.configure(2) do |config|
-  config.vm.box = "futureys/centos-7"
+  config.vm.box = "futureys/centos-8"
   config.vbguest.no_install = true
   config.vm.provider "virtualbox" do |vm|
     vm.memory = 2048

@@ -5,8 +5,8 @@
   "builders": [
     {
       "type": "vagrant",
-      "box_name": "futureys/centos-7",
-      "box_version": "201910.17.0",
+      "box_name": "futureys/centos-8",
+      "box_version": "201910.26.0",
       "box_provider": "virtualbox",
       "box_file": ".ovf",
       "builder": {
@@ -43,7 +43,7 @@
         "type": "vagrant-cloud",
         "box_tag": "futureys/docker-host",
         "access_token": "{{user `cloud_token`}}",
-        "version": "201910.17.0"
+        "version": "201910.27.0"
       }
     ]
   ]
