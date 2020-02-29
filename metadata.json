@@ -1,7 +1,7 @@
 {
   "name": "futureys/docker-host",
   "versions": [{
-    "version": "201910.27.0",
+    "version": "202002.17.0",
     "providers": [{
       "name": "virtualbox",
       "url": "packer_vagrant_virtualbox.box"
