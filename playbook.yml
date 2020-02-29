@@ -4,7 +4,6 @@
   roles:
     - role: ansible-role-docker-amazon-linux
     - role: ansible-role-packer-amazon-linux
-    - role: ansible-role-ssl-certificate-amazon-linux
     - role: ansible-role-heroku-cli-amazon-linux
     - role: ansible-role-cleaning-amazon-linux
       tags:
