@@ -6,7 +6,7 @@
     {
       "type": "vagrant",
       "box_name": "futureys/centos-8",
-      "box_version": "202002.17.0",
+      "box_version": "202003.01.0",
       "box_provider": "virtualbox",
       "box_file": ".ovf",
       "builder": {
@@ -43,7 +43,7 @@
         "type": "vagrant-cloud",
         "box_tag": "futureys/docker-host",
         "access_token": "{{user `cloud_token`}}",
-        "version": "202002.17.0"
+        "version": "202003.01.0"
       }
     ]
   ]
